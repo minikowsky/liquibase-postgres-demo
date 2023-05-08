@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  postgres-db:
+    image: postgres:latest
+    volumes:
+      - /var/lib/postgres
+    ports:
+      - 5432:5432
+    restart: always
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: minikowsky
+      POSTGRES_PASSWORD: password
