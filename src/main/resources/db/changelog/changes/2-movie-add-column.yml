@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: minikowsky
+      changes:
+        - addColumn:
+            tableName: MOVIE
+            columns:
+              - column:
+                  name: DIRECTOR
+                  type: varchar(50)
+                  constraints:
+                    nullable: true
+                  defaultValue: Director

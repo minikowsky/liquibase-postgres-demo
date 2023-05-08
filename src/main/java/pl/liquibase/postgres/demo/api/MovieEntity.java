@@ -19,6 +19,9 @@ public class MovieEntity {
     @Column(name = "RECORD_DATETIME")
     private LocalDateTime dateTime;
 
+    @Column(name = "DIRECTOR")
+    private String director;
+
 
     public MovieEntity title(String title) {
         this.title = title;

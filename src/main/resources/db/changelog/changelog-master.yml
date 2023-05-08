@@ -4,3 +4,5 @@ databaseChangeLog:
           username: minikowsky
   - include:
       file: classpath:db/changelog/changes/1-database-init.yml
+  - include:
+      file: classpath:db/changelog/changes/2-movie-add-column.yml
