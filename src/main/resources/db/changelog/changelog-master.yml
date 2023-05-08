@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: minikowsky
+  - include:
+      file: classpath:db/changelog/changes/1-database-init.yml

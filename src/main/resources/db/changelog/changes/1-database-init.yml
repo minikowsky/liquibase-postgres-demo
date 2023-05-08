@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: minikowsky
+      changes:
+        - createTable:
+            tableName: MOVIE
+            columns:
+              - column:
+                  name: TITLE
+                  type: varchar(100)
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: RECORD_DATETIME
+                  type: datetime
+                  constraints:
+                    nullable: false

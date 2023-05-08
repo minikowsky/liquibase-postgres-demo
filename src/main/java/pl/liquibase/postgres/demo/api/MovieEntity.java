@@ -9,7 +9,7 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "MOVIES")
+@Table(name = "MOVIE")
 @Data
 public class MovieEntity {
     @Id

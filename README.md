@@ -4,7 +4,10 @@ This project has been created to use liquibase in practise and get to know core 
 
 ## Key features
 - Basic rest API Spring Application with embedded tomcat
+- Local Postgres with docker
+- Set up liquibase
+- Create schema via liquibase
 
 ## TODO
-- Postgres with docker (locally and remotely)
-- Liquibase usage with two profiles: local and dev
+- Deploy postgres with docker on raspberry pi
+- Connect and update remote db
